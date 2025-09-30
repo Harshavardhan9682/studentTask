@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",              // ✅ Fix TSX parsing
+    "esModuleInterop": true,         // ✅ Fix import issues
+    "allowSyntheticDefaultImports": true,
+    "types": ["jest", "@testing-library/jest-dom"], // ✅ Add jest-dom matchers
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["src", "src/test"],   // ✅ Make sure tests are included
+  "exclude": ["node_modules"]
+}
