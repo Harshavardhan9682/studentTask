@@ -6,6 +6,8 @@ dotenv.config();
 exports.createTeacher = async (req, res) => {
   console.log(req.body);
 
+// Function to generate a random password 
+
   function generatePassword(length = 8) {
     const chars =
       "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$!";
