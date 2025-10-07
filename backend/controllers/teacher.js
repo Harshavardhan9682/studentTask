@@ -7,6 +7,9 @@ exports.createTeacher = async (req, res) => {
   console.log(req.body);
 
 // Function to generate a random password 
+// Function to generate a random password 
+// Function to generate a random password 
+// Function to generate a random password 
 
   function generatePassword(length = 8) {
     const chars =
